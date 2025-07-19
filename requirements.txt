@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pandas
+numpy
+xgboost
+apscheduler
+sqlalchemy
+scikit-learn
+requests
+ta
+yfinance
+python-multipart
+jinja2
