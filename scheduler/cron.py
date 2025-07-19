@@ -5,8 +5,8 @@ scheduler = BackgroundScheduler()
 
 @scheduler.scheduled_job("cron", hour=5)
 def scheduled_job():
-    for stock in ["2330", "2317", "2603"]:
-        train_model(stock)
+    print("⏰ 執行每日自動訓練...")
+    train_model("2330")
 
 def start_scheduler():
     scheduler.start()
